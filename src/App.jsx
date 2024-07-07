@@ -1,15 +1,11 @@
-import Buttons from "./componenets/Buttons"
-import Heading from "./componenets/Heading"
+import Container from "./componenets/Container";
+import AppContent from "./componenets/AppContent";
 
-const App = ()=> {
+const App = ()=> { 
   return (
-    <div className="container text-center" id="calucaltor">
-      <Heading/>
-      <input className="display" type="text" id="display" />
-      <div className="botton-container">
-        <Buttons/>
-      </div>
-    </div>
+    <Container>
+      <AppContent/>
+    </Container>
   )
 }
 

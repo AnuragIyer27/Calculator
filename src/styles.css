@@ -46,6 +46,6 @@
     color :white;
 }
 
-#button_15 {
-    background-color: orange;
+.equalBtn {
+    background-color: rgb(209, 136, 0);
 }
